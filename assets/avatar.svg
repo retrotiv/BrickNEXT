@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="BrickNext">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141833"/><stop offset="1" stop-color="#0b0d1c"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbd270"/><stop offset="1" stop-color="#f2a33c"/>
+    </linearGradient>
+    <linearGradient id="l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8902a"/><stop offset="1" stop-color="#c6771d"/>
+    </linearGradient>
+    <linearGradient id="r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cf7e22"/><stop offset="1" stop-color="#a95c14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="44%" r="46%">
+      <stop offset="0" stop-color="#f2a33c" stop-opacity=".30"/><stop offset="1" stop-color="#f2a33c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <rect x="30" y="30" width="452" height="452" rx="80" fill="none" stroke="#2a3050" stroke-width="2"/>
+  <rect width="512" height="512" rx="104" fill="url(#glow)"/>
+  <g transform="translate(106,120) scale(3.0)" stroke="#2a1c08" stroke-width="1.4" stroke-linejoin="round">
+    <polygon points="50,16 86,35 50,54 14,35" fill="url(#t)"/>
+    <polygon points="14,35 50,54 50,82 14,63" fill="url(#l)"/>
+    <polygon points="86,35 50,54 50,82 86,63" fill="url(#r)"/>
+  </g>
+  <g transform="translate(106,120) scale(3.0)">
+    <path d="M14,49 L50,68 M50,68 L86,49" fill="none" stroke="#8a4e12" stroke-width="1.6" opacity=".7"/>
+    <path d="M32,58.5 L32,72.5 M68,58.5 L68,72.5" fill="none" stroke="#8a4e12" stroke-width="1.4" opacity=".5"/>
+    <g stroke="#2a1c08" stroke-width="1.1">
+      <ellipse cx="38" cy="31" rx="7.4" ry="4" fill="#fbd270"/>
+      <ellipse cx="62" cy="31" rx="7.4" ry="4" fill="#fbd270"/>
+      <ellipse cx="50" cy="40" rx="7.4" ry="4" fill="#f6b64e"/>
+    </g>
+  </g>
+</svg>

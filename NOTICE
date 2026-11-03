@@ -1,0 +1,21 @@
+BrickNext
+
+BrickNext is a noncommercial adaptation of NextUI for the TrimUI Brick,
+maintained by retrotiv. It exists to add an integrated music player (AnberTunes)
+and retrotiv's own touches on top of NextUI, and to keep working even if an
+upstream project goes away.
+
+Credits and upstream projects:
+
+- NextUI - by LoveRetro (https://github.com/LoveRetro/NextUI), the firmware
+  BrickNext is built on. NextUI is itself based on MinUI by Shaun Inman.
+  Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE).
+- The emulator cores and standalone emulators (PPSSPP, Flycast, mupen64plus and
+  the libretro cores) belong to their respective authors and keep their own
+  licenses and notices.
+- The heavy-emulator paks (N64, DC, PSP) are by their original authors; BrickNext
+  only adds the music-card hooks to their launchers.
+- AnberTunes is retrotiv's fork of Boombrick.
+
+BrickNext is noncommercial: donations (ko-fi.com/retrotiv) are welcome, selling it
+is not. All trademarks and code above belong to their respective owners.
