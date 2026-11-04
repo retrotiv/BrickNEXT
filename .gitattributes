@@ -1,0 +1,8 @@
+*.sh text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.img binary
+*.zip binary
+*.png binary
+bin/busybox binary
+bin/show2.elf binary

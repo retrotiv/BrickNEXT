@@ -41,6 +41,9 @@ Dreamcast).
 
 > Dica: faca a instalacao num cartao vazio. Nao e preciso ter o NextUI antes.
 
+Depois de instalado, para pegar versoes novas e so abrir **Tools -> BrickNext Update**
+com o Wi-Fi ligado. Nao precisa regravar o cartao. Veja [docs/UPDATE.md](docs/UPDATE.md).
+
 ## English
 
 BrickNext is a retrotiv adaptation of **NextUI** for the **TrimUI Brick**. It keeps
@@ -64,6 +67,9 @@ everything NextUI does and adds **AnberTunes**: a background music player with a
    console folder. (BIOS and ROMs are **not** included.)
 
 > Tip: install onto an empty card. You do not need NextUI installed first.
+
+Once installed, to get new versions just open **Tools -> BrickNext Update** with Wi-Fi on.
+No need to re-flash the card. See [docs/UPDATE.md](docs/UPDATE.md).
 
 ---
 
