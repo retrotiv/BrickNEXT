@@ -108,8 +108,8 @@ included). Later versions come from **Tools -> BrickNext Update**, on Wi-Fi, wit
 BrickNext é construído sobre o **NextUI**, da **LoveRetro**
 (<https://github.com/LoveRetro/NextUI>), que por sua vez vem do **MinUI**, de Shaun Inman. O visual
 vem do **AnberNext** (<https://github.com/retrotiv/AnberNext>). Os emuladores e cores pertencem aos
-seus autores. Veja [NOTICE](NOTICE). O aparelho desta página é um desenho nosso, não uma foto da
-TrimUI.
+seus autores. Veja [NOTICE](NOTICE). Foto do aparelho: TrimUI. O BrickNext é um projeto da
+comunidade, sem ligação com a TrimUI.
 
 Licença **PolyForm Noncommercial 1.0.0** (veja [LICENSE](LICENSE)): projeto **não comercial**, com os
 créditos preservados.
