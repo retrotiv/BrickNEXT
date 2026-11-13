@@ -66,7 +66,9 @@ saturação, brilho, vermelho/verde/azul e velocidade. A chave de mute continua 
 
 ### O que vem junto
 - **AnberTunes** integrado, com o cartão "tocando agora" no menu do jogo e, por overlay, no
-  **PSP** (OpenGL e Vulkan), **N64** e **Dreamcast** (OpenGL).
+  **PSP** (OpenGL e Vulkan), **N64** e **Dreamcast** (OpenGL). O AnberTunes é um fork do
+  **[Boombrick](https://github.com/ujjwal313/boombrick)**, de **[ujjwal313](https://github.com/ujjwal313)**:
+  o app, e todo o trabalho por trás dele, é do autor do Boombrick.
 - **PSP, N64 e Dreamcast** já preparados, e o **Pak-Plaza**, a loja de paks da retrotiv.
 - **Atualizações travadas no repo da retrotiv**: o BrickNext só aceita o que a gente publicar aqui.
 
@@ -92,7 +94,9 @@ animation in four themes, plus **AnberTunes**, a music player that keeps playing
   > LEDs** picks *Follow the theme* or *Custom*, with LED Studio's controls (lights, effect, ready
   colors, hue, saturation, brightness, red/green/blue, speed). The mute switch still turns them off.
 - **AnberTunes** built in, with the now-playing card in the in-game menu and, via overlay, on **PSP**
-  (OpenGL and Vulkan), **N64** and **Dreamcast** (OpenGL).
+  (OpenGL and Vulkan), **N64** and **Dreamcast** (OpenGL). AnberTunes is a fork of
+  **[Boombrick](https://github.com/ujjwal313/boombrick)** by **[ujjwal313](https://github.com/ujjwal313)**:
+  the app and the work behind it are theirs.
 - **PSP, N64 and Dreamcast** ready to go, and **Pak-Plaza**, retrotiv's pak store.
 - **Updates locked to retrotiv's repo**: BrickNext only takes updates we publish here.
 
@@ -107,7 +111,8 @@ included). Later versions come from **Tools -> BrickNext Update**, on Wi-Fi, wit
 
 BrickNext é construído sobre o **NextUI**, da **LoveRetro**
 (<https://github.com/LoveRetro/NextUI>), que por sua vez vem do **MinUI**, de Shaun Inman. O visual
-vem do **AnberNext** (<https://github.com/retrotiv/AnberNext>). Os emuladores e cores pertencem aos
+vem do **AnberNext** (<https://github.com/retrotiv/AnberNext>), e o player AnberTunes é um fork do
+**Boombrick**, de ujjwal313 (<https://github.com/ujjwal313/boombrick>). Os emuladores e cores pertencem aos
 seus autores. Veja [NOTICE](NOTICE). Foto do aparelho: TrimUI. O BrickNext é um projeto da
 comunidade, sem ligação com a TrimUI.
 
