@@ -5,79 +5,111 @@
 <h1 align="center">BrickNext</h1>
 
 <p align="center">
-  <b>NextUI para o TrimUI Brick, com o player de musica AnberTunes embutido.</b><br>
-  <i>NextUI for the TrimUI Brick, with the AnberTunes music player built in.</i>
+  <b>NextUI para o TrimUI Brick, com quatro temas próprios, LEDs no tema e o player AnberTunes.</b><br>
+  <i>NextUI for the TrimUI Brick, with four themes of its own, themed LEDs and the AnberTunes player.</i>
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/retrotiv">Ko-fi</a> ·
-  <a href="https://github.com/retrotiv/BrickNEXT/releases">Releases</a>
+  <a href="https://github.com/retrotiv/BrickNEXT/releases/latest">Download</a> ·
+  <a href="docs/UPDATE.md">Atualizar / Update</a> ·
+  <a href="https://ko-fi.com/retrotiv">Ko-fi</a>
+</p>
+
+<p align="center">
+  <img src="assets/showcase/hero.webp" alt="A tela inicial do BrickNext num TrimUI Brick, passando pelos quatro temas" width="420">
 </p>
 
 ---
 
-## Portugues
+## Português
 
-BrickNext e uma adaptacao do **NextUI** para o **TrimUI Brick**, feita pela retrotiv.
-Ele mantem tudo o que o NextUI faz e acrescenta o **AnberTunes**: um player de musica
-que toca em segundo plano durante os jogos, com um cartao "tocando agora" que aparece
-dentro do menu dos emuladores internos e por cima dos emuladores pesados (PSP, N64,
-Dreamcast).
+BrickNext é a adaptação do **NextUI** para o **TrimUI Brick**, feita pela retrotiv. Mantém tudo o que
+o NextUI faz e traz o visual do AnberNext: tela inicial, biblioteca de jogos, menu dentro do jogo,
+Ajustes e animação de boot novos, em quatro temas, e o **AnberTunes**, um player de música que toca
+durante os jogos.
+
+### Quatro temas
+
+<p align="center">
+  <img src="assets/showcase/themes.png" alt="Neon Drive, Bloco, Grafite e Fósforo" width="900">
+</p>
+
+**Neon Drive** (synthwave), **Bloco** (blocos isométricos), **Grafite** (cartões limpos) e
+**Fósforo** (terminal de fósforo verde, âmbar ou branco). Cada um com seus jeitos de mostrar os
+consoles (carrossel, lista ou grade) e os jogos, e com prévia ao vivo nos Ajustes.
+
+### Tudo no tema
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/showcase/library.png" width="250"><br><b>Biblioteca</b><br>capas, último save, tempo de jogo</td>
+    <td align="center"><img src="assets/showcase/music.png" width="250"><br><b>Música</b><br>também durante os jogos</td>
+    <td align="center"><img src="assets/showcase/recents.png" width="250"><br><b>Continuar jogando</b><br>de volta ao save exato</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/showcase/menu.png" width="250"><br><b>Menu rápido</b><br>música, ajustes, ferramentas</td>
+    <td align="center"><img src="assets/showcase/settings.png" width="250"><br><b>Ajustes</b><br>tudo no visual do tema</td>
+    <td align="center"><img src="assets/showcase/ingame.png" width="250"><br><b>Menu do jogo</b><br>salvar, carregar, opções, música</td>
+  </tr>
+</table>
+
+### Boot e LEDs no tema
+
+<p align="center">
+  <img src="assets/showcase/boot.webp" alt="A animação de boot de cada tema" width="380">
+</p>
+
+Depois do logo da TrimUI entra a animação de boot do tema escolhido, e os **LEDs** acendem nas
+cores dele. Em **Ajustes > Aparência > LEDs** você escolhe **Seguir o tema** (boot, menu e jogos)
+ou **Personalizado**, com os controles do LED Studio: luzes, efeito, cores prontas, matiz,
+saturação, brilho, vermelho/verde/azul e velocidade. A chave de mute continua apagando os LEDs.
 
 ### O que vem junto
-- **AnberTunes** integrado (musica no menu e nos jogos, com controle direto).
-- Card do player no **menu in-game** dos emuladores internos e, por overlay, no
-  **PSP** (OpenGL e Vulkan), **N64** (OpenGL) e **Dreamcast** (OpenGL).
-- **Updates travados no repo da retrotiv**: o BrickNext so aceita atualizacoes que a
-  gente publicar aqui, pra nada quebrar o que ja funciona.
+- **AnberTunes** integrado, com o cartão "tocando agora" no menu do jogo e, por overlay, no
+  **PSP** (OpenGL e Vulkan), **N64** e **Dreamcast** (OpenGL).
+- **PSP, N64 e Dreamcast** já preparados, e o **Pak-Plaza**, a loja de paks da retrotiv.
+- **Atualizações travadas no repo da retrotiv**: o BrickNext só aceita o que a gente publicar aqui.
 
 ### Como instalar
-1. Baixe a release mais recente em **Releases**.
-2. Extraia o conteudo na raiz do cartao de memoria (um cartao so pra isso; comece
-   com um cartao vazio formatado em FAT32/exFAT).
-3. Coloque o cartao no Brick e ligue: ele se instala sozinho no primeiro boot.
-4. Depois, e so colocar suas **BIOS** em `Bios/` e suas **ROMs** em `Roms/`, cada
-   uma na pasta do console. (BIOS e ROMs **nao** acompanham o BrickNext.)
+1. Baixe a release mais recente em **[Releases](https://github.com/retrotiv/BrickNEXT/releases/latest)**.
+2. Extraia todo o conteúdo do zip na raiz de um cartão vazio, formatado em FAT32 ou exFAT.
+3. Coloque o cartão no Brick e ligue: ele se instala sozinho no primeiro boot.
+4. Coloque suas **BIOS** em `Bios/` e suas **ROMs** em `Roms/`, cada uma na pasta do console.
+   BIOS e ROMs **não** acompanham o BrickNext.
 
-> Dica: faca a instalacao num cartao vazio. Nao e preciso ter o NextUI antes.
-
-Depois de instalado, para pegar versoes novas e so abrir **Tools -> BrickNext Update**
-com o Wi-Fi ligado. Nao precisa regravar o cartao. Veja [docs/UPDATE.md](docs/UPDATE.md).
+Depois de instalado, para pegar versões novas basta abrir **Tools -> BrickNext Update** com o Wi-Fi
+ligado. Não precisa regravar o cartão. Veja [docs/UPDATE.md](docs/UPDATE.md).
 
 ## English
 
-BrickNext is a retrotiv adaptation of **NextUI** for the **TrimUI Brick**. It keeps
-everything NextUI does and adds **AnberTunes**: a background music player with a
-"now playing" card inside the built-in emulators' menu and over the heavy emulators
-(PSP, N64, Dreamcast).
+BrickNext is retrotiv's adaptation of **NextUI** for the **TrimUI Brick**. It keeps everything NextUI
+does and brings AnberNext's look: a new home screen, game library, in-game menu, settings and boot
+animation in four themes, plus **AnberTunes**, a music player that keeps playing in your games.
 
-### What's included
-- **AnberTunes** integrated (music in the menu and in games, with direct controls).
-- The player card in the built-in emulators' **in-game menu** and, via overlay, on
-  **PSP** (OpenGL and Vulkan), **N64** (OpenGL) and **Dreamcast** (OpenGL).
-- **Updates locked to retrotiv's repo**: BrickNext only takes updates we publish
-  here, so nothing breaks what already works.
+- **Four themes**: Neon Drive, Bloco, Grafite and Fósforo, each with its own layouts and live
+  previews in Settings.
+- **Themed boot and LEDs**: the boot animation and the LEDs follow the theme; **Settings > Appearance
+  > LEDs** picks *Follow the theme* or *Custom*, with LED Studio's controls (lights, effect, ready
+  colors, hue, saturation, brightness, red/green/blue, speed). The mute switch still turns them off.
+- **AnberTunes** built in, with the now-playing card in the in-game menu and, via overlay, on **PSP**
+  (OpenGL and Vulkan), **N64** and **Dreamcast** (OpenGL).
+- **PSP, N64 and Dreamcast** ready to go, and **Pak-Plaza**, retrotiv's pak store.
+- **Updates locked to retrotiv's repo**: BrickNext only takes updates we publish here.
 
-### Install
-1. Download the latest build from **Releases**.
-2. Extract it to the root of a memory card (use a dedicated card; start from an
-   empty FAT32/exFAT card).
-3. Put the card in the Brick and power on: it installs itself on first boot.
-4. Then add your **BIOS** to `Bios/` and your **ROMs** to `Roms/`, each under its
-   console folder. (BIOS and ROMs are **not** included.)
-
-> Tip: install onto an empty card. You do not need NextUI installed first.
-
-Once installed, to get new versions just open **Tools -> BrickNext Update** with Wi-Fi on.
-No need to re-flash the card. See [docs/UPDATE.md](docs/UPDATE.md).
+**Install:** download the latest **[release](https://github.com/retrotiv/BrickNEXT/releases/latest)**,
+extract the whole zip to the root of an empty FAT32/exFAT card, put it in the Brick and power on: it
+installs itself on first boot. Then add your **BIOS** to `Bios/` and **ROMs** to `Roms/` (not
+included). Later versions come from **Tools -> BrickNext Update**, on Wi-Fi, with no re-flashing.
 
 ---
 
-## Creditos / Credits
+## Créditos / Credits
 
-BrickNext e construido sobre o **NextUI**, da **LoveRetro**
-(<https://github.com/LoveRetro/NextUI>), que por sua vez vem do **MinUI**, de Shaun
-Inman. Os emuladores e cores pertencem aos seus autores. Veja [NOTICE](NOTICE).
+BrickNext é construído sobre o **NextUI**, da **LoveRetro**
+(<https://github.com/LoveRetro/NextUI>), que por sua vez vem do **MinUI**, de Shaun Inman. O visual
+vem do **AnberNext** (<https://github.com/retrotiv/AnberNext>). Os emuladores e cores pertencem aos
+seus autores. Veja [NOTICE](NOTICE). O aparelho desta página é um desenho nosso, não uma foto da
+TrimUI.
 
-Licenca **PolyForm Noncommercial 1.0.0** (veja [LICENSE](LICENSE)) - projeto
-**nao-comercial**, com os creditos preservados.
+Licença **PolyForm Noncommercial 1.0.0** (veja [LICENSE](LICENSE)): projeto **não comercial**, com os
+créditos preservados.
