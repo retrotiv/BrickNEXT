@@ -74,7 +74,8 @@ do [StrategyWiki](https://strategywiki.org) (licença CC BY-SA 3.0, com o crédi
 **42 deles traduzidos para o português**: Zelda, Pokémon, Final Fantasy, Mario, Chrono Trigger,
 Golden Sun e outros. No Brick, com o Wi-Fi ligado, um jogo que ainda não tem detonado no cartão
 baixa o guia na hora, pelo próprio menu, do catálogo público
-[retrotiv/detonados](https://github.com/retrotiv/detonados). *Chega na próxima versão.*
+[retrotiv/detonados](https://github.com/retrotiv/detonados). Já vem na **v1.2.0**, com os 561 guias no
+zip.
 
 ### Boot e LEDs no tema
 
@@ -113,7 +114,7 @@ animation in four themes, plus **AnberTunes**, a music player that keeps playing
 
 - **Four themes**: Neon Drive, Bloco, Grafite and Fósforo, each with its own layouts and live
   previews in Settings.
-- **Walkthroughs inside the game** (coming in the next release): press MENU, pick **Guide**, and that
+- **Walkthroughs inside the game** (since v1.2.0): press MENU, pick **Guide**, and that
   game's walkthrough opens over the paused game, in your theme, back on the page you left. No other
   handheld front-end does this. Portuguese or English, three text sizes, scanned magazine pages too,
   and a **Compendium** for RPGs where you tick off what you found. Same guides on the Brick and the
