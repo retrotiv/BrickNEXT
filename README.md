@@ -53,6 +53,29 @@ consoles (carrossel, lista ou grade) e os jogos, e com prévia ao vivo nos Ajust
   </tr>
 </table>
 
+### Detonado dentro do jogo
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/showcase/detonado-menu.png" width="250"><br><b>No menu do jogo</b><br>abre na página onde você parou</td>
+    <td align="center"><img src="assets/showcase/detonado-leitura.png" width="250"><br><b>Português e inglês</b><br>troca de idioma na hora, três tamanhos de letra</td>
+    <td align="center"><img src="assets/showcase/detonado-compendio.png" width="250"><br><b>Compêndio</b><br>a enciclopédia do jogo, com imagens e marcas</td>
+  </tr>
+</table>
+
+Travou num chefe? Aperte MENU e escolha **Detonado**: o guia daquele jogo abre por cima da partida,
+no tema do aparelho, e volta para o jogo quando você fecha. Nenhum outro sistema para portáteis faz
+isso. Ele lembra a página de cada jogo, lê texto ou páginas escaneadas de revista e, nos RPGs, pode
+ter um **Compêndio** com chefes, monstros, itens e magias, em que você marca o que já pegou. Funciona
+igual no Brick e no Miyoo Mini (MiniNext), com os mesmos guias do cartão.
+
+Os guias ficam em `Guides/<console>/`, com o nome do jogo. O pacote de guias tem **561 detonados**
+do [StrategyWiki](https://strategywiki.org) (licença CC BY-SA 3.0, com o crédito em cada arquivo),
+**42 deles traduzidos para o português**: Zelda, Pokémon, Final Fantasy, Mario, Chrono Trigger,
+Golden Sun e outros. No Brick, com o Wi-Fi ligado, um jogo que ainda não tem detonado no cartão
+baixa o guia na hora, pelo próprio menu, do catálogo público
+[retrotiv/detonados](https://github.com/retrotiv/detonados). *Chega na próxima versão.*
+
 ### Boot e LEDs no tema
 
 <p align="center">
@@ -90,6 +113,12 @@ animation in four themes, plus **AnberTunes**, a music player that keeps playing
 
 - **Four themes**: Neon Drive, Bloco, Grafite and Fósforo, each with its own layouts and live
   previews in Settings.
+- **Walkthroughs inside the game** (coming in the next release): press MENU, pick **Guide**, and that
+  game's walkthrough opens over the paused game, in your theme, back on the page you left. No other
+  handheld front-end does this. Portuguese or English, three text sizes, scanned magazine pages too,
+  and a **Compendium** for RPGs where you tick off what you found. Same guides on the Brick and the
+  Miyoo Mini. The guide pack has 561 walkthroughs from [StrategyWiki](https://strategywiki.org)
+  (CC BY-SA 3.0, credited in each file), 42 of them translated into Portuguese.
 - **Themed boot and LEDs**: the boot animation and the LEDs follow the theme; **Settings > Appearance
   > LEDs** picks *Follow the theme* or *Custom*, with LED Studio's controls (lights, effect, ready
   colors, hue, saturation, brightness, red/green/blue, speed). The mute switch still turns them off.
@@ -113,7 +142,9 @@ BrickNext é construído sobre o **NextUI**, da **LoveRetro**
 (<https://github.com/LoveRetro/NextUI>), que por sua vez vem do **MinUI**, de Shaun Inman. O visual
 vem do **AnberNext** (<https://github.com/retrotiv/AnberNext>), e o player AnberTunes é um fork do
 **Boombrick**, de ujjwal313 (<https://github.com/ujjwal313/boombrick>). Os emuladores e cores pertencem aos
-seus autores. Veja [NOTICE](NOTICE). Foto do aparelho: TrimUI. O BrickNext é um projeto da
+seus autores. Veja [NOTICE](NOTICE). Os detonados são da comunidade do
+[StrategyWiki](https://strategywiki.org) (CC BY-SA 3.0); as traduções para o português seguem a mesma
+licença, independente da licença do BrickNext. Foto do aparelho: TrimUI. O BrickNext é um projeto da
 comunidade, sem ligação com a TrimUI.
 
 Licença **PolyForm Noncommercial 1.0.0** (veja [LICENSE](LICENSE)): projeto **não comercial**, com os
